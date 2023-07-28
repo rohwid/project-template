@@ -1,4 +1,4 @@
-# Project Starter
+# Project Template
 
 ![build status](https://img.shields.io/github/actions/workflow/status/rohwid/project-starter/builder.yml?branch=main&style=flat-square)
 
