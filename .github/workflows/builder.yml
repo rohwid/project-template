@@ -1,10 +1,11 @@
 name: Project Builder
 on:
   pull_request:
+    branches: [master]
   push:
     branches: [master]
 jobs:
-  project:
+  build:
     runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
